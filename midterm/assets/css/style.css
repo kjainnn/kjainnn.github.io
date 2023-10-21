@@ -1,0 +1,105 @@
+.main {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(242, 246, 240);
+}
+
+#header {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    background: darkred;
+}
+
+#restaurantname {
+    font-size: 32px; 
+    font-family: Arial;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#address {
+    font-size: 16px; 
+    font-family: Arial;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.baritems {
+    width: 750px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    background: rgb(238, 196, 117);
+
+}
+
+#homebutton {
+    display: inline-block;
+    float: left;
+    position: relative;
+    bottom: 12px
+}
+
+#home{
+    font-size: 16px; 
+    font-family: Arial;
+    color: darkred;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+
+}
+
+
+#menubuttonnavbar{
+    font-size: 16px; 
+    font-family: Arial;
+    color: darkred;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    position: relative;
+    top: 3px
+
+}
+
+
+#hoursbox {
+    width: 605px;
+    height: 50px;
+    background: rgb(239, 239, 187);  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    margin-right: 100;
+    margin-left: 600;
+    color: darkred;   
+}
+
+#image {
+    display: inline; 
+    float: bottom; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
