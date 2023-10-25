@@ -1,0 +1,256 @@
+.main1 {
+    position: relative; 
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(242, 246, 240);
+}
+
+#header1 {
+    width: 500px;
+    margin-left: 20px;
+    padding: 15px;
+    background: darkred;
+    display: inline-block;
+    float: left;
+}
+
+#restaurantname1 {
+    font-size: 32px; 
+    font-family: Arial;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#baritems1 {
+    width: 750px;
+    background: rgb(238, 196, 117);
+    display: inline-block;
+    float: right;
+    }
+
+
+#homebuttonnavbar1 {
+    font-size: 16px; 
+    font-family: Arial;
+    color: darkred;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    float: left;
+
+}
+
+#menubutton1 {
+    position: relative;
+    right: 600px;
+    bottom: 12px;
+    display: inline-block;
+    float: right;
+}
+
+
+#menubutton {
+    font-size: 16px; 
+    font-family: Arial;
+    color: darkred;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+
+}
+
+
+#itembox1 {
+    position: absolute; 
+    left: 200px;
+    top: 150px;
+    width: 200px;
+    padding: 15px;
+    background: rgb(239, 239, 187);
+    display: inline-block;
+    float: left;
+}
+
+#popularitems {
+    font-size: 16px; 
+    font-family: Arial;
+    color: darkred;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#appetizers {
+    font-size: 16px; 
+    font-family: Arial;
+    color: darkred;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#vegetarian {
+    font-size: 16px; 
+    font-family: Arial;
+    color: darkred;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nonvegetarian {
+    font-size: 16px; 
+    font-family: Arial;
+    color: darkred;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#beverages {
+    font-size: 16px; 
+    font-family: Arial;
+    color: darkred;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sideorders {
+    font-size: 16px; 
+    font-family: Arial;
+    color: darkred;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dessert {
+    font-size: 16px; 
+    font-family: Arial;
+    color: darkred;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#desserttitlebox1 {
+    position: absolute; 
+    right: 250px;
+    top: 110px;
+    width: 200px;
+    padding: 15px;
+    background: rgb(239, 239, 187);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+#desserttitle1 {
+    font-size: 16px; 
+    font-family: Arial;
+    color: darkred;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#specificmenuboxpart1 {
+    position: absolute; 
+    right: 90px;
+    top: 200px; 
+    width: 600px;
+    background: rgb(239, 239, 187);
+}
+
+.price1 {
+    margin-right: 20px;
+    font-size: 16px; 
+    font-family: Arial;
+    color: black;
+    display: flex; 
+    flex-direction: column;
+    display: inline-block;
+    float: right;
+}
+
+#Cheesecake { 
+    padding: 10px;
+    font-size: 16px; 
+    font-family: Arial;
+    color: black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#Baklava { 
+    padding: 10px;
+    font-size: 16px; 
+    font-family: Arial;
+    color: black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#Tiramisu { 
+    padding: 10px;
+    font-size: 16px; 
+    font-family: Arial;
+    color: black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#ChocolateMousse { 
+    padding: 10px;
+    font-size: 16px; 
+    font-family: Arial;
+    color: black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+
+
