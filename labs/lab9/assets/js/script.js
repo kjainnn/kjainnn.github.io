@@ -13,13 +13,11 @@ let imageNum = 0
 function showNextImage() {
 	// change imageNum
 	imageNum ++;
-
 	// how many pixels from the left should imageRow now be?
 	let fromleft = -carouselWidth * imageNum;
 	// change css for imageRow
 	imageRow.style.left = fromleft + 'px';
 	checkControls();
-
 }
 
 /* Part 2.4: Change the onclick property for the next button */
@@ -32,7 +30,6 @@ function showPrevImage() {
 
 	// how many pixels from the left should imageRow now be?
 	let fromleft = -carouselWidth * imageNum;
-
 	// change css for imageRow
 	imageRow.style.left = fromleft + 'px';
 	checkControls();
@@ -52,17 +49,13 @@ function checkControls() {
 	// This if-statement checks if we're at the first image.
 	// In the parentheses below, check what imageNum is equal to.
 	if (imageNum === 0) {
-	
 		// What should happen if it's the first image?
 		prevButton.classList.add('hidden');
-	}
 
-	
-	
+	}
 	else if (prevButton.classList.contains("hidden")) {
 		// otherwise, what should happen?
 		prevButton.classList.remove('hidden');
-	
 		
 	}
 	// This if-statement checks if we're at the last image.
@@ -70,12 +63,14 @@ function checkControls() {
 	if (imageNum === totalImages - 1) {
 		// What should happen it's the last image?
 		nextButton.classList.add('hidden');
-		
 	}
 	else if (nextButton.classList.contains("hidden")) {
 		// otherwise, what should happen?
 		nextButton.classList.remove('hidden');
-	}
-	}
+		
 
-	prevButton.classList.add('hidden');
+	}
+} 
+
+prevButton.classList.add('hidden');
+
