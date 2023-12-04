@@ -82,14 +82,13 @@ header {
 }
 
 /* PROBLEM 5: Pick an opacity for the blue hover effect */
---
 
 .image-card-text {
     /* PROBLEM 6: Similar to .image-card-cover-overlay, position the card text */
 
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 175px;
+    left: 10px;
     color: white;
    
 }
@@ -99,25 +98,31 @@ header {
 
 
 #title {
-    font-size: 50px;
+    font-family: 'Roboto';
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
+    color:black;
+
 }
 
  h1 {
     font-family: Arial;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     line-height: 1.5;
     text-align: center;
+    color: blue;
 
 }
 
 h2 {
     font-family: Arial;
-    font-size: 25px;
+    font-size: 17px;
     font-weight: bold;
     line-height: 1.5;
+    color:blue; 
+
 
 }
 
@@ -126,6 +131,8 @@ font-family: Arial;
 font-size: 20px;
 font-weight: bold;
 line-height: 1.5;
+color: blue;
+
 
 }
 
@@ -134,6 +141,8 @@ p {
     font-size: 15px;
     font-weight: normal;
     line-height: 1.5;
+    margin: auto;
+    color:black;
 
 } 
 
