@@ -56,12 +56,12 @@ header {
     width: 100%;
 }
 
-.image-card-color-overlay:hover {
+.image-card-color-overlay{
  
     position: absolute;
     top: 0px;
     left: 0px;
-    opacity: 0.7;
+    opacity: 0;
     transition: 0.3s;
     background-color: navy;
 }
@@ -71,15 +71,15 @@ header {
     /* PROBLEM 5: What should the opacity be when there is no hover? */
 
 
-/* .image-card .image-card-color-overlay {
-    position: absolute;
+.image-card:hover .image-card-color-overlay {
+    /* position: absolute;
     top: 0px;
-    left: 0px;
+    left: 0px; */
     opacity: 0.7;
-    transition: 0.3s;
+    /* transition: 0.3s;
     background-color: navy;
-    opacity: 0.7;
-} */
+    opacity: 0.7; */
+}
 
 /* PROBLEM 5: Pick an opacity for the blue hover effect */
 --
@@ -90,29 +90,58 @@ header {
     position: absolute;
     top: 0px;
     left: 0px;
-
     color: white;
+   
 }
 
 
 /* PROBLEM 7: Improve the typography and colors of this page! */
 
-#title {
 
+#title {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
 }
 
-h1 {
+ h1 {
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
 
 }
 
 h2 {
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.5;
 
 }
 
 h3 {
+font-family: Arial;
+font-size: 20px;
+font-weight: bold;
+line-height: 1.5;
 
 }
 
 p {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.5;
 
+} 
+
+.image-card-text {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: white;
+    margin: 10px;
 }
