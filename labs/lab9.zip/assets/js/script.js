@@ -12,55 +12,70 @@ let imageNum = 0
 /* Part 2.3: The showNextImage function should shift the image row to the left */
 function showNextImage() {
 	// change imageNum
-	let imageNum = imageNum + 1
+	imageNum ++;
 
 	// how many pixels from the left should imageRow now be?
-	let fromleft = left: -800px; 
+	let fromleft = -carouselWidth * imageNum;
 	// change css for imageRow
+	imageRow.style.left = fromleft + 'px';
+	checkControls();
 
 }
 
 /* Part 2.4: Change the onclick property for the next button */
-
+nextButton.onclick = showNextImage;
 
 /* Part 2.5: The showPrevImage function should shift the image row to the right */
 function showPrevImage() {
 	// change imageNum
+	imageNum --;
 
 	// how many pixels from the left should imageRow now be?
+	let fromleft = -carouselWidth * imageNum;
 
 	// change css for imageRow
+	imageRow.style.left = fromleft + 'px';
+	checkControls();
 
 }
 
 /* Part 2.6: Change the onclick property for the prev button */
+prevButton.onclick = showPrevImage;
 
 
 /* Total number of images */
 let totalImages = document.getElementsByClassName("carousel-image").length;
 
 /* Part 2.7 */
-/* delete this line to uncomment the function!
+
 function checkControls() {
 	// This if-statement checks if we're at the first image.
 	// In the parentheses below, check what imageNum is equal to.
-	if () {
+	if (imageNum === 0) {
+	
 		// What should happen if it's the first image?
-
+		prevButton.classList.add('hidden');
 	}
+
+	
+	
 	else if (prevButton.classList.contains("hidden")) {
 		// otherwise, what should happen?
+		prevButton.classList.remove('hidden');
+	
 		
 	}
 	// This if-statement checks if we're at the last image.
 	// In the parentheses below, check what imageNum is equal to.
-	if () {
+	if (imageNum === totalImages - 1) {
 		// What should happen it's the last image?
+		nextButton.classList.add('hidden');
 		
 	}
 	else if (nextButton.classList.contains("hidden")) {
 		// otherwise, what should happen?
-
+		nextButton.classList.remove('hidden');
 	}
-} */
+	}
 
+	prevButton.classList.add('hidden');
